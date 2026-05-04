@@ -85,6 +85,7 @@ flowchart TD
     TempStorage -->|Deploy| CloudRun[🚀 Cloud Run]
     CloudRun -->|Public URL| CLI
     CLI -->|Display URL| User
+```
 
 ## ⚙️ How It Works (Functions)
 
@@ -147,6 +148,8 @@ The project is built as a collection of small, single‑purpose serverless funct
 - [gcloud CLI](https://cloud.google.com/sdk/docs/install) installed and authenticated
 - [Python 3.9+](https://www.python.org/downloads/) and pip
 - Git
+```
+
 
 ### 1. Clone the repository
 ```bash
