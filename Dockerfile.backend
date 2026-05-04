@@ -3,6 +3,9 @@ WORKDIR /app
 COPY backend/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 COPY backend/ .
-RUN pip install functions-framework
+# আপনার ডিপেন্ডেন্সিগুলোর সাথে ফ্রেমওয়ার্ক ইনস্টল
+RUN pip install functions-framework google-cloud-firestore pdfplumber flask
 EXPOSE 8080
-CMD ["functions-framework", "--target=parse_pdf", "--port=8080"]
+
+# টার্গেট পরিবর্তন করে main_entry করা হয়েছে
+CMD ["functions-framework", "--target=main_entry", "--port=8080", "--signature-type=http"]

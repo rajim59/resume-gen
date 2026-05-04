@@ -194,4 +194,3 @@ Live URL: [https://resume-xyz-uc.a.run.app](https://resume-xyz-uc.a.run.app)
 ```
 
 Open the link in your browser – your resume is live!
-```
