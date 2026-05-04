@@ -1,5 +1,3 @@
-
-```markdown
 # ☁️ Cloud Resume Generator (crg)
 
 [![GCP](https://img.shields.io/badge/Google%20Cloud-Serverless-blue)](https://cloud.google.com)
@@ -87,9 +85,6 @@ flowchart TD
     TempStorage -->|Deploy| CloudRun[🚀 Cloud Run]
     CloudRun -->|Public URL| CLI
     CLI -->|Display URL| User
-```
-
----
 
 ## ⚙️ How It Works (Functions)
 
@@ -141,7 +136,7 @@ The project is built as a collection of small, single‑purpose serverless funct
 | **Cloud Scheduler** | (Optional) Runs weekly cost‑report or cleanup job. |
 | **Terraform** | Infrastructure as Code – defines all resources. |
 
-*(All services used within Google Cloud Always Free tier limits – see [pricing](#limitations--future-work) section.)*
+*(All services used within Google Cloud Always Free tier limits – see pricing section.)*
 
 ---
 
@@ -155,8 +150,8 @@ The project is built as a collection of small, single‑purpose serverless funct
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/cloud-resume-generator.git
-cd cloud-resume-generator
+git clone [https://github.com/rajim59/resume-gen.git](https://github.com/rajim59/resume-gen.git)
+cd resume-gen
 ```
 
 ### 2. Set up environment
@@ -192,11 +187,8 @@ resume-gen deploy --file /path/to/your-resume.pdf
 After 30–90 seconds, you’ll see:
 ```
 ✅ Deployment successful!
-Live URL: https://resume-xyz-uc.a.run.app
+Live URL: [https://resume-xyz-uc.a.run.app](https://resume-xyz-uc.a.run.app)
 ```
 
 Open the link in your browser – your resume is live!
-
----
 ```
-
